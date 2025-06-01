@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# 모델 폴더 및 파일 무시
+app/models/
+!app/models/.gitkeep
+
+# 오디오 파일 무시 (원하면)
+app/audio/
+!app/audio/.gitkeep
+
+# 기타
+.DS_Store

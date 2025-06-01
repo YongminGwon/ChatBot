@@ -1,0 +1,10 @@
+python-dotenv
+google-genai
+google
+
+torch
+torchaudio
+transformers
+accelerate
+openai-whisper
+soundfile
