@@ -15,3 +15,4 @@ app/audio/
 
 # 기타
 .DS_Store
+*.wav
