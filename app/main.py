@@ -57,7 +57,9 @@ def process_speech(audio_data):
     if not user_text:
         print("STT 변환 실패.")
         return None
-    
+    elif user_text == "MBC 뉴스 김성현입니다.":
+        return None
+
     print(f"STT 결과: {user_text}")
     
     # AI 응답 생성
